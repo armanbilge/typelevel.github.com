@@ -1,0 +1,44 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "steward",
+    "name": "Typelevel",
+    "email": "board@typelevel.org",
+    "description": "We do functional programming together!",
+    "webpageUrl": {
+      "url": "https://typelevel.org"
+    }
+  },
+  "projects": [],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/typelevel"
+      },
+      {
+        "guid": "open-collective",
+        "type": "payment-provider",
+        "address": "https://opencollective.com/typelevel-foundation"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "supporter",
+        "status": "active",
+        "name": "Monthly Supporter",
+        "description": "Enjoy free virtual admission to events organized by the Typelevel Foundation, including Typelevel Summits.",
+        "amount": 6,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "open-collective"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
